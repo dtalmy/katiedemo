@@ -1,4 +1,4 @@
-time,r1,r2,r3,id,org,name,control,treatment
+time,r1,r2,r3,id,organism,name,control,treatment
 0,246239.2393,220751.176,245383.8676,barakgavish2018,H,ehux379,TRUE,replete
 2,633490.8798,627061.8667,655387.1078,barakgavish2018,H,ehux379,TRUE,replete
 4,1554661.836,1544663.585,1517089.132,barakgavish2018,H,ehux379,TRUE,replete
