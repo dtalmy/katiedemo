@@ -8,7 +8,7 @@ master_df = pd.read_csv('../data/tradeoffdat.csv')
 # select a random subset for plotting
 zerodmspdat = master_df[master_df['treatment']=='0DMSP']
 h0dmsp = zerodmspdat[zerodmspdat['control']==True]
-single= h0dmsp[h0dmsp['org']=='H']
+single= h0dmsp[h0dmsp['organism']=='H']
 
 # now plot
 f,ax = pl.subplots()
