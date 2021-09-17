@@ -1,0 +1,35 @@
+﻿,in hours,abundance in cells per ml ,,,,,,,,,,in nM (nanomolar) ,,
+id ,time ,rep1,rep2,rep3,rep4,logscale,organism,control,stddev,method,error,HOOH treatment,microbeStrain,oriSource
+Calfee_2_5,0,1273635.00,1340691.23,1370418.31,1428764.92,False ,Pro_HLII,True ,,flow cytometry ,,,MIT9215,Calfee raw data 2-5-2020
+Calfee_2_5,24,1724692.06,1714728.95,1741500.39,1794159.17,False ,Pro_HLII,True ,,flow cytometry ,,,MIT9215,Calfee raw data 2-5-2020
+Calfee_2_5,48,2112912.79,1931593.39,2039891.51,2045442.78,False ,Pro_HLII,True ,,flow cytometry ,,,MIT9215,Calfee raw data 2-5-2020
+Calfee_2_5,120,2864798.83,2761100.35,2895086.58,2808755.23,False ,Pro_HLII,True ,,flow cytometry ,,,MIT9215,Calfee raw data 2-5-2020
+Calfee_2_5,0,1285307.15,1324695.87,1278389.38,1373101.46,False ,Pro_HLII,False ,,flow cytometry ,,400,MIT9215,Calfee raw data 2-5-2020
+Calfee_2_5,24,1205367.36,1175043.70,1181162.65,1148157.10,False ,Pro_HLII,False ,,flow cytometry ,,400,MIT9215,Calfee raw data 2-5-2020
+Calfee_2_5,48,15153.94,18836.84,24644.60,27762.80,False ,Pro_HLII,False ,,flow cytometry ,,400,MIT9215,Calfee raw data 2-5-2020
+Calfee_2_5,120,10485.18,8919.37,9202.66,10343.71,False ,Pro_HLII,False ,,flow cytometry ,,400,MIT9215,Calfee raw data 2-5-2020
+Calfee_1_31,0,316874.37,320727.57,262469.76,308690.61,False ,Pro_HLII,True ,,flow cytometry ,,,MIT9215,Calfee raw data 1-31-2020
+Calfee_1_31,24,499597.33,502731.24,467750.12,487358.32,False ,Pro_HLII,True ,,flow cytometry ,,,MIT9215,Calfee raw data 1-31-2020
+Calfee_1_31,96,787333.78,852585.93,842650.31,926593.33,False ,Pro_HLII,True ,,flow cytometry ,,,MIT9215,Calfee raw data 1-31-2020
+Calfee_1_31,144,1452469.11,1485009.20,1529423.94,1512378.71,False ,Pro_HLII,True ,,flow cytometry ,,,MIT9215,Calfee raw data 1-31-2020
+Calfee_1_31,192,2438832.26,2425482.80,2350637.28,2488369.05,False ,Pro_HLII,True ,,flow cytometry ,,,MIT9215,Calfee raw data 1-31-2020
+Calfee_1_31,0,301930.81,275504.03,275697.27,279392.85,False ,Pro_HLII,False ,,flow cytometry ,,400,MIT9215,Calfee raw data 1-31-2020
+Calfee_1_31,24,263437.63,284842.92,269726.62,279511.18,False ,Pro_HLII,False ,,flow cytometry ,,400,MIT9215,Calfee raw data 1-31-2020
+Calfee_1_31,96,1132.57,990.97,1132.54,1557.18,False ,Pro_HLII,False ,,flow cytometry ,,400,MIT9215,Calfee raw data 1-31-2020
+Calfee_1_31,144,2692.20,1132.57,1840.44,2550.55,False ,Pro_HLII,False ,,flow cytometry ,,400,MIT9215,Calfee raw data 1-31-2020
+Calfee_1_31,192,5661.63,5378.68,6086.64,5237.20,False ,Pro_HLII,False ,,flow cytometry ,,400,MIT9215,Calfee raw data 1-31-2020
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,

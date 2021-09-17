@@ -9,20 +9,11 @@ import pandas as pd
 ###################################################
 
 # read whole dataset
-master_df = pd.read_csv('../data/tradeoffdat.csv')
+single = pd.read_csv('../data/ben_test.csv')
 
-single = master_df
-#using openpyxl because of xlrd version issues
-df_all.columns = df_all.iloc[0]
-#print(df_all.columns)
-
-
-#Grabbing just data from Feb experiment  experiment 
-feb_df = df_all.loc[df_all['oriSource'] == 'Calfee raw data 2-5-2020']
-#print(feb_df)
-
-# read whole dataset
-#single = pd.read_csv('../data/for_demo.csv')
+new_headers = single.iloc[0]     #trying to get headers recognized by calls in 'define initial coditions' portion of script
+new_single = single[1:]
+single = new_single
 
 ###################################################
 # define model
@@ -52,7 +43,7 @@ N0_prior=ODElib.parameter(stats_gen=scipy.stats.lognorm,
 
 # initialize the class for fitting
 H1=ODElib.ModelFramework(ODE=holling_one,
-                          parameter_names=['alpha','N0'],
+                          parameter_names=['alpha','N0'], 
                           state_names = ['N','H'],
                           dataframe=single,
                           alpha = alpha_prior.copy(),
@@ -62,9 +53,7 @@ H1=ODElib.ModelFramework(ODE=holling_one,
                           N = N0
                          )
 
-
-
-##################################################
+###################################################
 # visualize initial parameter guess
 ###################################################
 
@@ -89,8 +78,6 @@ mod = H1.integrate()
 # plot model initial guess
 ax[0].plot(H1.times,mod['N'],label='initial guess',c='r')
 ax[1].plot(H1.times,mod['H'],label='initial guess',c='r')
-
-
 
 ###################################################
 # do fitting and plot fitted model
@@ -122,12 +109,5 @@ l.draw_frame(False)
 py.show()
 
 # save output
-#f.savefig('../figures/batch_curve_fitting')
-
-
-
-
-
-
-
+f.savefig('../figures/batch_curve_fitting')
 
