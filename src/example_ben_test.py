@@ -11,9 +11,11 @@ import pandas as pd
 # read whole dataset
 single = pd.read_csv('../data/ben_test.csv')
 
-new_headers = single.iloc[0]     #trying to get headers recognized by calls in 'define initial coditions' portion of script
-new_single = single[1:]
-single = new_single
+single.columns = single.iloc[0]
+
+#new_headers = single.iloc[0]     #trying to get headers recognized by calls in 'define initial coditions' portion of script
+#new_single = single[1:]
+#single = new_single
 
 ###################################################
 # define model
@@ -31,8 +33,8 @@ def holling_one(y,t,ps):
 ###################################################
 
 # define initial conditions
-H0 = single[single['organism']=='H']['abundance'].iloc[0]
-N0 = single[single['organism']=='H']['abundance'].iloc[-1] - H0
+H0 = single[single['organism']=='H']['rep1'].iloc[0]          #rep1 instead of abundance
+N0 = single[single['organism']=='H']['rep1'].iloc[-1] - H0    
 
 # log-transformed priors
 alpha_prior=ODElib.parameter(stats_gen=scipy.stats.lognorm,
